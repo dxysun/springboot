@@ -1,0 +1,19 @@
+server:
+  context-path: /sb
+  port: 8080
+cupSize: B
+age: 18
+content: "cupSize: ${cupSize}, age: ${age}"
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/sbtest?useSSL=false
+    username: root
+    password: toor
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  #thymeleaf:
+   # mode: HTML5
+   # cache: false
