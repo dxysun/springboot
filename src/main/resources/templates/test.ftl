@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
 
-    <!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+    <#--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" >
 
-    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" ></script>-->
+  <#--  <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" >
+
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+
+    <script type="text/javascript" src="webjars/bootstrap/3.3.7/js/bootstrap.min.js" ></script>-->
+    <link rel="stylesheet" type="text/css" href="webjarslocator/bootstrap/css/bootstrap.min.css" >
+
+    <link rel="stylesheet" type="text/css" href="webjarslocator/bootstrap/css/bootstrap-theme.min.css" >
+
+    <script type="text/javascript" src="webjarslocator/bootstrap/js/bootstrap.min.js" ></script>
+
 </head>
 <body>
 <h1>hello world</h1>
